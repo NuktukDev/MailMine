@@ -1,0 +1,21 @@
+{
+  "imap_server": {
+    "host": "imap.gmail.com",
+    "port": 993,
+    "encryption": "ssl",
+    "validate_cert": true,
+    "username": "thekylealdridge@gmail.com",
+    "password": "ur password",
+    "protocol": "imap"
+  },
+
+  "filter": {
+    "address": "thekylealdridge@gmail.com",
+    "subject": "Statement",
+    "attachments": ["pdf"],
+    "webhook": {
+      "url": "https://example.com/doAction",
+      "sendAttachments": true
+    }
+  }
+}
